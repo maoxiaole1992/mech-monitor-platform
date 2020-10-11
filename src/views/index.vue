@@ -122,7 +122,6 @@ export default {
   mounted () {
     this.timeFn();
     this.cancelLoading();
-    this.getInfo();
   },
   methods: {
     timeFn () {
@@ -137,11 +136,6 @@ export default {
         this.loading = false;
       }, 500);
     },
-    getInfo() {
-      this.$http.get("/test123").then((res) => {
-        console.log(res.data)
-      })
-    }
   }
 };
 </script>

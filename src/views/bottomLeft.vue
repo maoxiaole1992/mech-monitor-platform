@@ -6,7 +6,7 @@
           <icon name="chart-bar"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">数据统计图</span>
+          <span class="fs-xl text mx-2">振动信号频域信息</span>
         </div>
       </div>
       <div>
@@ -33,11 +33,11 @@ export default {
 <style lang="scss">
 #bottomLeft {
   padding: 0.3rem 0.2rem;
-  height: 6.5rem;
+  /*height: 6.5rem;*/
   min-width: 3.75rem;
   border-radius: 0.0625rem;
   .bg-color-black {
-    height: 6.0625rem;
+    /*height: 6.0625rem;*/
     border-radius: 0.125rem;
   }
   .text {
@@ -46,7 +46,7 @@ export default {
   .chart-box {
     margin-top: 0.2rem;
     width: 2.125rem;
-    height: 2.125rem;
+    /*height: 2.125rem;*/
     .active-ring-name {
       padding-top: 0.125rem;
     }
