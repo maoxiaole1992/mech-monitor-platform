@@ -6,7 +6,7 @@
           <icon name="chart-bar"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">振动信号频域信息</span>
+          <span class="fs-xl text mx-2">振动信号时域信息</span>
         </div>
       </div>
       <div>

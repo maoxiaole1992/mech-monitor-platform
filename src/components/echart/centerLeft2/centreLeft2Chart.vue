@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     draw() {
-      this.$http.get("/getRmsData").then((res) => {
+      this.$http.get("/getTimeParams").then((res) => {
         if (res.data.flag) {
           // 基于准备好的dom，初始化echarts实例
           this.chart = this.$echarts.init(document.getElementById("centreLeft2Chart"));
@@ -27,12 +27,6 @@ export default {
           let option = {
             tooltip: {
               formatter: '{a} <br/>{b} : {c}'
-            },
-            toolbox: {
-              feature: {
-                restore: {},
-                saveAsImage: {}
-              }
             },
             series: [
               {
